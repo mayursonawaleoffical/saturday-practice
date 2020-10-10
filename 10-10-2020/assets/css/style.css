@@ -156,7 +156,31 @@ sub { bottom: -.25em; }
   font-weight: bold;
 }
 
-/* Header start */
+/* ==========================================================================
+   2. Body
+   ========================================================================== */
+
+body{
+  font-family: "Times New Roman", Times, serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  display: inline;
+}
+
+.btn{
+  border: none;
+  background-color: #69AD31;
+  text-transform: uppercase;
+}
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
 
 .header{
   width: 100%;
@@ -171,3 +195,11 @@ sub { bottom: -.25em; }
   display: flex;
   background-color: #fff;
 }
+
+.logo{
+  display: flex;
+  align-items: center;
+  /* background-color: red; */
+}
+
+
