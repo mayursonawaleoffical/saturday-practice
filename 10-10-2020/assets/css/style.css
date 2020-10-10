@@ -224,3 +224,23 @@ li{
 .menu-links:hover{
   font-size: 1.2rem;
 }
+
+/* ==========================================================================
+   Banner
+   ========================================================================== */
+
+.banner-img{
+  width: 100%;
+  height: 769px;
+}
+
+.banner-img img{
+  background-repeat: no-repeat;
+
+background-size: cover;
+
+background-position: center center;
+
+position: relative;
+}
+
