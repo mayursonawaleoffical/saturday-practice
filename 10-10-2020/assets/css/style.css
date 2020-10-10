@@ -196,7 +196,7 @@ li{
   background-color: #fff;
 }
 
-.logo{
+.logo, nav{
   display: flex;
   align-items: center;
   /* background-color: red; */
