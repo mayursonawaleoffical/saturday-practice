@@ -200,3 +200,12 @@ li{
   display: flex;
   align-items: center;
 }
+
+.logo{
+  width: 50%;
+  font-size: 1.7rem;
+}
+
+nav{
+  width: 50%;
+}
