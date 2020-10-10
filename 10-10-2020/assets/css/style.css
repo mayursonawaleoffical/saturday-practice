@@ -193,10 +193,9 @@ li{
   height: inherit;
   margin: 0 auto;
   display: flex;
-  background-color: #fff;
 }
 
-.logo, nav{
+.logo, .menu{
   display: flex;
   align-items: center;
 }
@@ -204,8 +203,24 @@ li{
 .logo{
   width: 50%;
   font-size: 1.7rem;
+  font-weight: bold;
 }
 
-nav{
+.logo a, .menu-links{
+  color: #fff;
+}
+
+.menu{
   width: 50%;
+  justify-content: space-between;
+}
+
+.menu-links{
+  font-size: 1rem;
+  text-transform: uppercase;
+  transition: .3s ease-in-out;
+}
+
+.menu-links:hover{
+  font-size: 1.2rem;
 }
