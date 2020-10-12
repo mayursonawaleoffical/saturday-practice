@@ -161,22 +161,25 @@ sub { bottom: -.25em; }
    ========================================================================== */
 
 body{
-  font-family: "Times New Roman", Times, serif;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 .wrapper{
-  width: 1138px;
-  height: inherit;
+  max-width: 1140px;
+  width: 85%; 
   margin: 0 auto;
   display: flex;
 }
 
 a{
+  display: inline-block;
   text-decoration: none;
 }
 
 li{
-  display: inline;
+  display: inline-block;
+  list-style-type: none;
 }
 
 .btn{
@@ -186,12 +189,11 @@ li{
 }
 
 /* ==========================================================================
-   Header
+   Header start
    ========================================================================== */
 
 .header{
   width: 100%;
-  height: 91px;
   background-color: #363636;
 }
 
@@ -202,8 +204,9 @@ li{
 
 .logo{
   width: 50%;
-  font-size: 1.7rem;
-  font-weight: bold;
+  font-size: 25px;
+  font-weight: 300;
+  letter-spacing: 1.5px;
 }
 
 .logo a, .menu-links{
@@ -216,32 +219,40 @@ li{
 }
 
 .menu-links{
-  font-size: 1rem;
+  margin: 30px 0px;
+  padding: 7px;
+  font-size: 14px;
+  font-weight: 100;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
-  transition: .3s ease-in-out;
+  transition: .2s ease;
 }
 
 .menu-links:hover{
-  font-size: 1.2rem;
+  color: #69AD31;
 }
 
 /* ==========================================================================
-   Banner
+   Header end
+   ========================================================================== */
+
+/* ==========================================================================
+   Banner start
    ========================================================================== */
 
 .banner{
   width: 100%;
-  height: 130vh;
-  background: url(../images/intro-bg.jpg);
-  -webkit-background-size:cover;
+}
+
+.banner .banner-img img{
+  width: inherit;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
-.banner .banner-img{
-  width: 100%;
-  height: 130vh;
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0));
+.banner div.banner-img{
+  width: inherit;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
 }
 
