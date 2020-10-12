@@ -183,11 +183,14 @@ li{
 }
 
 .btn{
+  padding: 16px 13px;
   border: none;
   border-radius: 7px;
   background-color: #69AD31;
   color: #fff;
   text-transform: uppercase;
+  letter-spacing: 1.3px;
+  transition: .2s ease;
 }
 
 /* ==========================================================================
@@ -287,12 +290,8 @@ li{
 }
 
 .banner .wrapper .banner-link{
-  width: 118px;
-  padding: 16px 13px;
   border-top: 1.2px solid #fff;
   border-bottom: 1.2px solid #fff;
-  letter-spacing: 1.3px;
-  transition: .2s ease;
 }
 
 .banner .wrapper .banner-link:hover{
