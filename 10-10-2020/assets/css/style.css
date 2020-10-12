@@ -371,7 +371,7 @@ li{
 
 .about .wrapper .left-about .about-info .about-link:hover{
   border: 1px solid #69AD31;
-  background-color: #fff;
+  background-color: #F6F6F6;
   color: #69AD31;
 }
 
@@ -399,7 +399,9 @@ li{
   background-repeat: no-repeat;
 }
 
-.about .wrapper .right-about ul .headline{
+.about-garden-care-headline,
+.about-lawn-care-headline
+{
   margin: 20px 0px;
   color: #363636;
   font-size: 22px;
@@ -423,8 +425,9 @@ li{
 
   .services{
     width: 100%;
-    padding: 100px 0px;
+    padding: 120px 0px;
     background-color: #69AD31;
+    color: #C3DEAD;
   }
 
   .services .wrapper{
@@ -435,6 +438,18 @@ li{
 
   .services .wrapper .services-headline{
     color: #fff;
+  }
+
+  .services .wrapper .services-headline::after{
+    content: '';
+    width: 75px;
+    margin: 20px auto;
+    border-bottom: 3px solid #C3DEAD;
+    display: block;
+  }
+
+  .services .wrapper .services-info{
+    font-size: 18px;
   }
 
 /* ==========================================================================
