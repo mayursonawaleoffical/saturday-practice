@@ -565,33 +565,21 @@ li{
     color: #fff;
   }
 
-  .gallery .wrapper .collage{
+  .projects {
     width: 100%;
-    margin: 20px 0px;
-  }
-
-  .first-col, .second-col, .third-col {
-    width: inherit;
     display: flex;
-    justify-content: space-between;
-  }
-  .first-col .collage-img{
-    width: 20%;
-    padding: 50.5px 50px;
-    margin: 25px;
+    flex-wrap: wrap;
   }
 
-  .first-col .collage-img img{
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+  .projects figure {
+    width: 30%;
+    margin: auto;
+    padding: 15.5px 0px;
   }
 
-  .collage-img:nth-child(1){
-    margin-right: 20px;
+  .projects figure img {
+    width: 103%;
   }
-
-
    /* ==========================================================================
    Gallery ends
    ========================================================================== */
