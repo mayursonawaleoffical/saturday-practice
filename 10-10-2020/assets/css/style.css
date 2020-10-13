@@ -554,7 +554,7 @@ li{
     color: #363636;
   }
 
-  .gallery .wrapper .gallery-links .btn:hover{
+  .gallery .wrapper .gallery-links .btn:not(.active):hover{
     border: 1px solid #69AD31;
     background-color: #fff;
     color: #69AD31;
@@ -574,6 +574,21 @@ li{
     width: inherit;
     display: flex;
     justify-content: space-between;
+  }
+  .first-col .collage-img{
+    width: 20%;
+    padding: 50.5px 50px;
+    margin: 25px;
+  }
+
+  .first-col .collage-img img{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  .collage-img:nth-child(1){
+    margin-right: 20px;
   }
 
 
