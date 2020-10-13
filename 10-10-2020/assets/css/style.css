@@ -512,7 +512,7 @@ li{
    Services ends
    ========================================================================== */
 
-   /* ==========================================================================
+ /* ==========================================================================
    Gallery starts
    ========================================================================== */
 
@@ -580,6 +580,56 @@ li{
   .projects figure img {
     width: 103%;
   }
-   /* ==========================================================================
+  /* ==========================================================================
    Gallery ends
+   ========================================================================== */
+
+  /* ==========================================================================
+   Testimonials start
+   ========================================================================== */
+
+  .testimonials{
+    width: 100%;
+    padding: 120px 0px;
+    background-image: linear-gradient(rgba(105, 173, 49, 0.85), rgba(105, 173, 49, 0.85)), url(../images/testimonials-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #C3DEAD;
+  }
+
+  .testimonials .wrapper{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .testimonials .wrapper .testimonials-headline{
+    color: #F6F6F6;
+  }
+
+  .testimonials .wrapper .testimonials-headline::after{
+    content: '';
+    width: 75px;
+    margin: 20px auto;
+    border-bottom: 3px solid #C3DEAD;
+    display: block;
+  }
+
+  .testimonials .wrapper .slide-info{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 200%;
+  }
+
+  .testimonials .wrapper .testimonials-info{
+    font-size: 18px;
+  }
+
+
+
+
+ /* ==========================================================================
+   Testimonials ends
    ========================================================================== */
