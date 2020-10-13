@@ -543,7 +543,28 @@ li{
 
   .gallery .wrapper .gallery-info{
     font-size: 18px;
+    margin-bottom: 30px;
   }
+
+  .gallery .wrapper .gallery-links .btn{
+    margin: 20px 10px;
+    padding: 10px 14px;
+    border-radius: 4px;
+    background-color: #E5E5E5;
+    color: #363636;
+  }
+
+  .gallery .wrapper .gallery-links .btn:hover{
+    border: 1px solid #69AD31;
+    background-color: #fff;
+    color: #69AD31;
+  }
+
+  .gallery .wrapper .gallery-links .active{
+    background-color: #69AD31;
+    color: #fff;
+  }
+
 
 
    /* ==========================================================================
