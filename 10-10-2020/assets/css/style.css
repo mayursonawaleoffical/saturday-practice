@@ -452,6 +452,63 @@ li{
     font-size: 18px;
   }
 
+  .services .wrapper .services-cards{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .services .wrapper .services-cards .card{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .services .wrapper .services-cards .card ul{
+    /* padding: 5px; */
+  }
+
+  .services .wrapper .services-cards .card ul .card-img{
+    width: 70%;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: 10px solid #78B546;
+    border-radius: 50%;
+  }
+
+  .services .wrapper .services-cards .card ul .card-title{
+    margin: 20px 0px 15px 0px;
+    font-size: 23px;
+    color: #fff;
+  }
+
+  .services .wrapper .services-cards .card ul .card-info{
+    padding: 0px 7px;
+  }
+
+  .lawn-care-card .card-img{
+    background-image: url(../images/services/service-1.jpg);
+  }
+
+  .landscape-design-card .card-img{
+    background-image: url(../images/services/service-2.jpg);
+  }
+
+  .tree-care-card .card-img{
+    background-image: url(../images/services/service-3.jpg);
+  }
+
+  .Spring-fall-cleanup-card .card-img{
+    background-image: url(../images/services/service-4.jpg);
+  }
+
+
+
+
 /* ==========================================================================
    Services ends
    ========================================================================== */
