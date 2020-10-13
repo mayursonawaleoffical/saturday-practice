@@ -466,10 +466,6 @@ li{
     text-align: center;
   }
 
-  .services .wrapper .services-cards .card ul{
-    /* padding: 5px; */
-  }
-
   .services .wrapper .services-cards .card ul .card-img{
     width: 70%;
     height: 200px;
@@ -487,7 +483,10 @@ li{
   }
 
   .services .wrapper .services-cards .card ul .card-info{
-    padding: 0px 7px;
+    padding: 0px 20px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6;
   }
 
   .lawn-care-card .card-img{
@@ -511,4 +510,42 @@ li{
 
 /* ==========================================================================
    Services ends
+   ========================================================================== */
+
+   /* ==========================================================================
+   Gallery starts
+   ========================================================================== */
+
+  .gallery{
+    width: 100%;
+    padding: 120px 0px;
+    background-color: #F6F6F6;
+    color: #363636;
+  }
+
+  .gallery .wrapper{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .gallery .wrapper .gallery-headline{
+    color: #363636;
+  }
+
+  .gallery .wrapper .gallery-headline::after{
+    content: '';
+    width: 75px;
+    margin: 20px auto;
+    border-bottom: 3px solid #69AD31;
+    display: block;
+  }
+
+  .gallery .wrapper .gallery-info{
+    font-size: 18px;
+  }
+
+
+   /* ==========================================================================
+   Gallery ends
    ========================================================================== */
