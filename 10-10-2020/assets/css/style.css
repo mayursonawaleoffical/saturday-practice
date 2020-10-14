@@ -803,11 +803,37 @@ li{
     justify-content: center;
   }
 
+  .footer .wrapper .icons{
+    margin: 0px 0px 30px 0px;
+  }
+
   .footer .wrapper .icons a{
-    font-size: 23px;
+    font-size: 20px;
     border-radius: 100%;
     background: #464646;
     color: #69ad31;
+  }
+
+  .footer .wrapper .icons .facebook{
+    width: 18px;
+    padding: 14px;
+    margin: 0px 20px 0px 0px;
+  }
+
+  .footer .wrapper .icons .twitter{
+    width: 18px;
+    padding: 14px;
+    margin: 0px 20px 0px 0px;
+  }
+
+  .footer .wrapper .icons .googlePlus{
+    width: 18px;
+    padding: 14px;
+  }
+
+  .footer .wrapper .icons a:hover{
+    background: #69ad31;
+    color: #fff;
   }
 
   .templateWire{
