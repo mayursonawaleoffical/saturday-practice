@@ -803,8 +803,11 @@ li{
     justify-content: center;
   }
 
-  .footer .wrapper .icons span{
-    
+  .footer .wrapper .icons a{
+    font-size: 23px;
+    border-radius: 100%;
+    background: #464646;
+    color: #69ad31;
   }
 
   .templateWire{
