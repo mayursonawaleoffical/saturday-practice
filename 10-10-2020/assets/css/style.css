@@ -654,7 +654,7 @@ li{
 
   .contact{
     width: 100%;
-    padding: 120px 0px;
+    padding: 110px 0px 90px 0px;
     background-color: #F6F6F6;
     color: #363636;
   }
@@ -724,8 +724,8 @@ li{
 }
 
 .contact-form .name, .contact-form .mail{
-  width: calc(50% - 12px);
-  padding: 10px 0px;
+  width: calc(50% - 27px);
+  padding: 15px 0px 10px 15px;
   border: 1.5px solid #E1E1E1;
   border-radius: 2px;
 }
@@ -739,11 +739,33 @@ li{
 }
 
 .contact-form textarea{
-  width: 99%;
-  padding: 35px 0px;
+  width: 97.2%;
+  padding: 20px 0px 75px 15px;
   border: 1.5px solid #E1E1E1;
   border-radius: 2px;
   margin-bottom: 10px;
+}
+
+.contact-form .name::-webkit-input-placeholder, .contact-form .mail::-webkit-input-placeholder, .contact-form textarea::-webkit-input-placeholder{
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.contact-form .name::-moz-placeholder, .contact-form .mail::-moz-placeholder, .contact-form textarea::-moz-placeholder{
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+}
+.contact-form .name:-ms-input-placeholder, .contact-form .mail:-ms-input-placeholder, .contact-form textarea:-ms-input-placeholder{
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+}
+.contact-form .name:-moz-placeholder, .contact-form .mail:-moz-placeholder, .contact-form textarea:-moz-placeholder{
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .form-submit{
