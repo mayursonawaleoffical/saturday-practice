@@ -679,8 +679,84 @@ li{
 
   .contact .wrapper .contact-info{
     font-size: 18px;
-    margin-bottom: 30px;
   }
+
+  .contact .wrapper .contact-details{
+    width: 100%;
+    margin: 80px 0px;
+    display: flex;
+    justify-content: center;
+  }
+
+.contact .wrapper .contact-details ul{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contact .wrapper .contact-details ul li:first-of-type{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.contact .wrapper .contact-details ul li:first-of-type::after{
+  content: '';
+  width: 75px;
+  margin: 20px auto;
+  border-bottom: 3px solid #DCDCDC;
+  display: block;
+}
+
+.contact .wrapper .contact-details ul li:not(:first-of-type){
+  margin: 7px 0px;
+  color: #818181;
+}
+
+.contact-form-headline{
+  font-size: 16px;
+  letter-spacing: normal;
+  text-transform: uppercase;
+}
+
+.contact-form{
+  width: 64%;
+}
+
+.contact-form .name, .contact-form .mail{
+  width: calc(50% - 12px);
+  padding: 10px 0px;
+  border: 1.5px solid #E1E1E1;
+  border-radius: 2px;
+}
+
+.contact-form .name{
+  margin: 15px 5px 15px 0px;
+}
+
+.contact-form .mail{
+  margin: 15px 0px 15px 5px;
+}
+
+.contact-form textarea{
+  width: 99%;
+  padding: 35px 0px;
+  border: 1.5px solid #E1E1E1;
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+
+.form-submit{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.form-submit:hover{
+  border: 1px solid #69AD31;
+  background-color: #fff;
+  color: #69AD31;
+}
 
 
 /* ==========================================================================
